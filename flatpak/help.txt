@@ -1,1 +1,1 @@
-Put all the game files from an installed Windows version of the game here.
+Put all the game files from an installed Windows version of the game to the "game" folder.

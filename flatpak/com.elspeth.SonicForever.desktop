@@ -2,5 +2,5 @@
 Type=Application
 Name=Sonic 1 Forever
 Icon=com.elspeth.SonicForever
-Exec=s1fs2a
+Exec=run.sh
 Categories=Game;
