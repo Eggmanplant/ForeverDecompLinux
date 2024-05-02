@@ -92,6 +92,10 @@ INCLUDES  += \
 
 INCLUDES += $(LIBS)
 
+install: 
+	make
+	install -Dp -m755 bin/Linux/s1fs2a $(prefix)/bin/s1fs2a
+
 # Main Sources
 SOURCES = \
     RSDKv4/Animation    \
