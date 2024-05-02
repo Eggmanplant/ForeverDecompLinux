@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop">
-  <id>com.sega.Sonic2</id>
-  <name>Sonic the Hedgehog 2</name>
+  <id>com.elspeth.SonicForever</id>
+  <name>Sonic 1 Forever</name>
   <metadata_license>CC0-1.0</metadata_license>
-  <summary>Speed back in time to destroy the devious Dr. Eggman!</summary>
+  <summary>Save the world from the evil Dr. Eggman!</summary>
   <description>
-    <p>Speed back in time and discover the game that first united Sonic the Hedgehog with his amazing flying sidekick Miles "Tails" Prower. Run through high speed levels packed with enemies and hazards as you zoom along loop de loops in your mission to destroy the devious Dr. Eggman.</p>
+    <p>Race at lightning speeds across seven classic zones as Sonic the Hedgehog. Run and spin through loop-de-loops as you collect rings and defeat enemies on your mission to save the world from the evil Dr. Eggman.</p>
   </description>
-  <url type="homepage">https://www.sega.com/games/sonic-hedgehog2</url>
+  <url type="homepage">https://teamforeveronline.wixsite.com/home/sonic-1-forever</url>
   <screenshots>
-    <screenshot type="default">https://cdn.sega.com/sonic2_1.png</screenshot>
-    <screenshot>https://cdn.sega.com/sonic2_6.png</screenshot>
-    <screenshot>https://cdn.sega.com/sonic2_9.png</screenshot>
-    <screenshot>https://cdn.sega.com/sonic2_cnz_2.png</screenshot>
-    <screenshot>https://cdn.sega.com/sonic2_cpz_1.png</screenshot>
-    <screenshot>https://cdn.sega.com/sonic2_ehz_2.png</screenshot>
-    <screenshot>https://cdn.sega.com/sonic2_hpz_4.png</screenshot>
+    <screenshot type="default">https://cdn.sega.com/1.png</screenshot>
+    <screenshot>https://cdn.sega.com/2.png</screenshot>
+    <screenshot>https://cdn.sega.com/3.png</screenshot>
+    <screenshot>https://cdn.sega.com/4.png</screenshot>
+    <screenshot>https://cdn.sega.com/5.png</screenshot>
+    <screenshot>https://cdn.sega.com/6.png</screenshot>
   </screenshots>
-  <launchable type="desktop-id">com.sega.Sonic2.desktop</launchable>
+  <launchable type="desktop-id">com.elspeth.SonicForever.desktop</launchable>
   <project_license>LicenseRef-proprietary</project_license>
-  <developer_name>SEGA</developer_name>
+  <developer_name>Team Forever</developer_name>
   <content_rating type="oars-1.0">
     <content_attribute id="violence-cartoon">moderate</content_attribute>
     <content_attribute id="violence-fantasy">none</content_attribute>
