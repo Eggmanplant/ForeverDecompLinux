@@ -1,0 +1,63 @@
+{
+    "app-id": "com.elspeth.SonicForever",
+    "runtime": "org.freedesktop.Platform",
+    "runtime-version": "23.08",
+    "sdk": "org.freedesktop.Sdk",
+    "command": "run.sh",
+    "finish-args": [
+        "--share=ipc",
+        "--socket=x11",
+        "--socket=wayland",
+        "--socket=pulseaudio",
+        "--persist=.",
+        "--device=all"
+    ],
+    "modules": [
+        "shared-modules/glew/glew.json",
+        "shared-modules/glu/glu-9.json",
+        {
+            "name": "forever",
+            "no-autogen": true,
+            "make-args": [
+                "prefix=/app"
+            ],
+            "make-install-args": [
+                "prefix=/app"
+            ],
+            "post-install": [
+                "install -Dp -m 744 run.sh /app/bin/run.sh",
+            	"install -Dp -m 644 help.txt /app/share/forever/help.txt",
+                "install -Dp -m 644 com.elspeth.SonicForever.desktop /app/share/applications/com.elspeth.SonicForever.desktop",
+                "install -Dp -m 644 com.elspeth.SonicForever.svg /app/share/icons/hicolor/scalable/apps/com.elspeth.SonicForever.svg",
+                "install -Dp -m 644 com.elspeth.SonicForever.appdata.xml /app/share/appdata/com.elspeth.SonicForever.appdata.xml"
+            ],
+            "sources": [
+                {
+                    "type": "file",
+                    "path": "run.sh"
+                },
+                {
+                    "type": "file",
+                    "path": "help.txt"
+                },
+                {
+                    "type": "git",
+                    "url": "https://github.com/Eggmanplant/ForeverDecompLinux.git",
+                    "branch": "absolute"
+                },
+                {
+                    "type": "file",
+                    "path": "com.elspeth.SonicForever.desktop"
+                },
+                {
+                    "type": "file",
+                    "path": "com.elspeth.SonicForever.svg"
+                },
+                {
+                    "type": "file",
+                    "path": "com.elspeth.SonicForever.appdata.xml"
+                }
+            ]
+        }
+    ]
+}

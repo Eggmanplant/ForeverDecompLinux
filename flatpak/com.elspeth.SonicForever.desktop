@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Sonic 1 Forever
+Icon=com.elspeth.SonicForever
+Exec=run.sh
+Categories=Game;
